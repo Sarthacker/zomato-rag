@@ -253,7 +253,7 @@ Return final_response                                       # Send back to user
 
 Close Pinecone connection                                   # Clean up resources
 ```
-<img src="assets/rag.png" alt="rag" width="500" />
+<img src="assets/rag.png" alt="rag" width="700" />
 
 ### 5. Conclusion 
 - The main function here is processing of the user query by running through the steps sequentially: checking query relevance, converting to embeddings, searching the vector database, and generating a response.
