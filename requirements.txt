@@ -1,0 +1,7 @@
+groq
+dotenv
+sentence transformer
+pinecone
+streamlit
+selenium
+pandas
