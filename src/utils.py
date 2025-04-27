@@ -1,4 +1,4 @@
-import json
+import json 
 from .config import index, client, LLAMA_MODEL,HUGGING_FACE_MODEL
 from sentence_transformers import SentenceTransformer
 from streamlit import write

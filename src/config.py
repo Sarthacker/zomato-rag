@@ -1,10 +1,7 @@
 import os
-from dotenv import load_dotenv
 from pinecone import Pinecone
 from groq import Groq
 import streamlit as st
-
-load_dotenv()
 
 HUGGING_FACE_MODEL = st.secrets["HUGGING_FACE_MODEL"]
 LLAMA_MODEL = st.secrets["LLAMA_MODEL"]
