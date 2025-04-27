@@ -1,12 +1,23 @@
 # Zomato Gen AI Internship Assignment
 
+## Results
+<img src="assets/history.png" alt="rag" width="900" />
+<img src="assets/history1.png" alt="rag" width="900" />
+<img src="assets/img.png" alt="rag" width="900" />
+<img src="assets/img1.jpg" alt="rag" width="900" />
+<img src="assets/compare.png" alt="rag" width="900" />
+<img src="assets/out_of_bound.png" alt="rag" width="900" />
+
+## Video
+- [Demo Video](https://youtu.be/cPDR8dRle0s)
+
+
 ## Table of Contents
 
 - [Web Scrapping](https://github.com/Sarthacker/zomato-rag?tab=readme-ov-file#web-scraping-process)
 - [Knowledge Base Creation](https://github.com/Sarthacker/zomato-rag?tab=readme-ov-file#knowledge-base-creation)
 - [RAG Workflow](https://github.com/Sarthacker/zomato-rag?tab=readme-ov-file#rag-workflow)
 - [User Interface](https://github.com/Sarthacker/zomato-rag?tab=readme-ov-file#user-interface)
-- [Demo Images](https://github.com/Sarthacker/zomato-rag?tab=readme-ov-file#user-interface)
 
 
 ## Web Scraping Process
@@ -302,7 +313,3 @@ pip install streamlit
 streamlit run app.py
 ```
 - After running the command, Streamlit will start a local server. Open the URL provided in the terminal, usually `http://localhost:8501/` in your browser to access the chatbot.
-
-## Demo Images
-<img src="assets/history.png" alt="rag" width="900" />
-<img src="assets/history1.png" alt="rag" width="900" />
