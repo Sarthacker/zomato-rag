@@ -3,7 +3,6 @@
 ## Results
 <img src="assets/history.png" alt="rag" width="900" />
 <img src="assets/history1.png" alt="rag" width="900" />
-<img src="assets/img.png" alt="rag" width="900" />
 <img src="assets/img1.jpg" alt="rag" width="900" />
 <img src="assets/compare.png" alt="rag" width="900" />
 <img src="assets/out_of_bound.png" alt="rag" width="900" />
