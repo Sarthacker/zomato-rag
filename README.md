@@ -293,4 +293,3 @@ pip install streamlit
 streamlit run app.py
 ```
 - After running the command, Streamlit will start a local server. Open the URL provided in the terminal, usually `http://localhost:8501/` in your browser to access the chatbot.
-"# zomato-rag" 
