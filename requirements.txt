@@ -1,6 +1,6 @@
 groq
 dotenv
-sentence transformer
+sentence-transformer
 pinecone
 streamlit
 selenium
