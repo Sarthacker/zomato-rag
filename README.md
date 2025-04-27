@@ -71,29 +71,29 @@ For each restaurant in the list:               # Loop through all target restaur
 Serialize the complete dataset to JSON format  # Convert the collected list into a nested JSON file
 Close browser session                          # Quit WebDriver and release resources
 ```
-
+### 6. Flow Chart
 <img src="assets/scrapping.png" alt="scrapping" width="300" />
 
-### 6. Tools and Technologies
+### 7. Tools and Technologies
 
 - **Selenium WebDriver**: Leveraged for automated browser control, enabling the handling of complex page interactions and dynamic content.
 - **Explicit and Implicit Waits**: Configured to ensure all dynamic elements fully rendered before interaction, reducing data omission errors.
 - **Python**: The primary scripting language used to orchestrate the scraping tasks and perform initial data cleaning.
 
-### 7. Assumptions and Limitations
+### 8. Assumptions and Limitations
 
 Several working assumptions guided the scraper development, along with acknowledged limitations:
 - **Assumption**: Class names and HTML structures for analogous elements remained consistent within each site.
 - **Limitation**: Occasional deviations in markup resulted in partial or incorrect captures, particularly on pages with frequent design updates.
 - **Effect**: While most records were accurately captured, a small subset required manual verification or additional parsing rules.
 
-### 8. Challenges Faced
+### 9. Challenges Faced
 
 - **Dynamic Content Loading**: Many pages implemented lazy loading or JavaScript-driven elements. Custom wait conditions and scrolling routines were added to ensure complete data retrieval.
 - **Inconsistent HTML Structures**: Variations in container classes and element nesting across restaurants necessitated flexible selector definitions and fallback mechanisms.
 - **Pop-up and Banner Obstructions**: Intermittent promotional overlays disrupted the scraping workflow. A utility was developed to detect and dismiss these elements before data extraction.
 
-### 9. Conclusion and Next Steps
+### 10. Conclusion and Next Steps
 
 The web scraping process successfully produced a detailed dataset encompassing 
 both restaurant-level metadata and granular dish information. Minor inconsistencies 
@@ -175,6 +175,7 @@ For each restaurant object in JSON data:                   # Iterate restaurants
         Upsert payload into Pinecone index                 # Store vector in DB
 Close Pinecone connection                                  # Finalize transmissions
 ```
+### 5. Flow Chart
 <img src="assets/vectorization.png" alt="vectorization" width="300" />
 
 ## RAG Workflow
@@ -253,9 +254,10 @@ Return final_response                                       # Send back to user
 
 Close Pinecone connection                                   # Clean up resources
 ```
+### 5. Flow Chart
 <img src="assets/rag.png" alt="rag" width="700" />
 
-### 5. Conclusion 
+### 6. Conclusion 
 - The main function here is processing of the user query by running through the steps sequentially: checking query relevance, converting to embeddings, searching the vector database, and generating a response.
 
 ## User Interface
@@ -291,4 +293,3 @@ pip install streamlit
 streamlit run app.py
 ```
 - After running the command, Streamlit will start a local server. Open the URL provided in the terminal, usually `http://localhost:8501/` in your browser to access the chatbot.
-"# zomato-rag" 
