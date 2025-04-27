@@ -1,5 +1,14 @@
 # Zomato Gen AI Internship Assignment
 
+## Table of Contents
+
+- [Web Scrapping](https://github.com/Sarthacker/zomato-rag?tab=readme-ov-file#web-scraping-process)
+- [Knowledge Base Creation](https://github.com/Sarthacker/zomato-rag?tab=readme-ov-file#knowledge-base-creation)
+- [RAG Workflow](https://github.com/Sarthacker/zomato-rag?tab=readme-ov-file#rag-workflow)
+- [User Interface](https://github.com/Sarthacker/zomato-rag?tab=readme-ov-file#user-interface)
+- [Demo Images](https://github.com/Sarthacker/zomato-rag?tab=readme-ov-file#user-interface)
+
+
 ## Web Scraping Process
 
 ### 1. Introduction
